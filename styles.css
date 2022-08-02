@@ -92,20 +92,15 @@ header {
 .product-box {
   position: relative;
   border: 1px solid #171427;
-  border-radius: 20px;
-  outline: none;
-  padding: 5px;
 }
 .product-box:hover {
-  padding: 15px;
-  margin: 5px;
+  background-color: rgb(205, 192, 192);
   transition: 0.4s all linear;
 }
 .product-box img {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-radius: 20px;
 }
 
 .product-title {
@@ -127,7 +122,6 @@ header {
   color: #fff;
   padding: 10px;
   cursor: pointer;
-  border-radius: 20px;
 }
 
 .cart-title {
@@ -145,9 +139,9 @@ header {
 }
 
 .cart-box > img {
-  width: 100px;
+  width: 100%;
   height: 100px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .detail-box {
@@ -191,11 +185,10 @@ header {
 .btn-buy {
   display: flex;
   margin: 1.5rem auto 0 auto;
-  padding: 12px 20px;
   background-color: #171427;
   color: #fff;
-  border-radius: 20px;
   cursor: pointer;
+  padding: 0.5rem 1rem;
 }
 
 .btn-buy:hover {
