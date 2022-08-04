@@ -92,9 +92,11 @@ header {
 .product-box {
   position: relative;
   border: 1px solid #171427;
+  transition: 0.4s all linear;
+  overflow: hidden;
 }
-.product-box:hover {
-  background-color: rgb(205, 192, 192);
+.product-box > img:hover {
+  transform: scale(1.1);
   transition: 0.4s all linear;
 }
 .product-box img {
